@@ -1,0 +1,133 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [48, 9],
+		"start": [1, 7],
+		"goal": [44, 3, 2, 5]
+	},
+
+	"physics": {
+		"gravity": 1.5,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/Sky.png",
+		"image2": "assets/images/backgrounds/Hills_2.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[0, 0, "Cinder"],
+			[0, 1, "Cinder"],
+			[0, 2, "Cinder"],
+			[0, 3, "Cinder"],
+			[0, 4, "Cinder"],
+			[0, 5, "Cinder"],
+			[0, 6, "Cinder"],
+			[0, 7, "Cinder"],
+			[0, 8, "Cinder"],
+			[1, 8, "Cinder"],
+			[2, 8, "Cinder"],
+			[3, 8, "Cinder"],
+			[4, 8, "Cinder"],
+			[5, 8, "Cinder"],
+			[6, 8, "Cinder"],
+			[7, 8, "Cinder"],
+			[8, 8, "Cinder"],
+			[9, 8, "Cinder"],
+			[10, 8, "Cinder"],
+			[11, 8, "Cinder"],
+			[12, 8, "Cinder"],
+			[13, 8, "Cinder"],
+			[14, 8, "Cinder"],
+			[15, 8, "Cinder"],
+			[16, 8, "Cinder"],
+			[17, 8, "Cinder"],
+			[18, 8, "Cinder"],
+			[19, 8, "Cinder"],
+			[20, 8, "Cinder"],
+			[21, 8, "Cinder"],
+			[22, 8, "Cinder"],
+			[23, 8, "Cinder"],
+			[24, 8, "Cinder"],
+			[25, 8, "Cinder"],
+			[26, 8, "Cinder"],
+			[27, 8, "Cinder"],
+			[28, 8, "Cinder"],
+			[29, 8, "Cinder"],
+			[30, 8, "Cinder"],
+			[31, 8, "Cinder"],
+			[32, 8, "Cinder"],
+			[33, 8, "Cinder"],
+			[34, 8, "Cinder"],
+			[35, 8, "Cinder"],
+			[36, 8, "Cinder"],
+			[37, 8, "Cinder"],
+			[38, 8, "Cinder"],
+			[39, 8, "Cinder"],
+			[40, 8, "Cinder"],
+			[41, 8, "Cinder"],
+			[42, 8, "Cinder"],
+			[43, 8, "Cinder"],
+			[44, 8, "Cinder"],
+			[45, 8, "Cinder"],
+			[46, 8, "Cinder"],
+			[47, 8, "Cinder"],
+
+			[8, 3, "Platform"],
+			[9, 3, "Platform"],
+			[10, 3, "Platform"],
+			[11, 3, "Platform"],
+			[12, 3, "Platform"],
+
+			[15, 5, "Platform"],
+
+			[20, 5, "Platform"],
+			[20, 6, "Platform"],
+			[20, 7, "Platform"],
+
+			[27, 6, "Platform"],
+			[28, 6, "Platform"],
+			[29, 6, "Platform"],
+			[30, 6, "Platform"],
+			[31, 6, "Platform"],
+
+			[33, 4, "Platform"],
+			[34, 4, "Platform"],
+			[35, 4, "Platform"]
+		],
+
+		"foreground": [
+			[12, 7, "Plant"],
+			[19, 7, "Plant"],
+			[34, 7, "Plant"]
+		]
+	},
+
+	"items": [
+		[10, 2, "Gem"],
+		[20, 4, "Gem"],
+		[29, 5, "Gem"],
+		[34, 3, "Gem"]
+	],
+
+	"enemies": [
+		[11, 2, "BasicEnemy"],
+		[18, 7, "BasicEnemy"],
+		[30, 5, "PlatformEnemy"],
+		[34, 3, "PlatformEnemy"]
+	]
+}
