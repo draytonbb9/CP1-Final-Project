@@ -14,6 +14,6 @@ space bar = jump
 
 ## Gameplay 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/assets/images/screenshotsScreenshot (3).png "Gameplay Photo 1")
+![alt text](https://raw.githubusercontent.com/draytonbb9/CP1-Final-Project/master/assets/images/screenshots/Screenshot%20(3).png)
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/assets/images/screenshots/Screenshot (4).png "Gameplay Photo 2")
+![alt text](https://raw.githubusercontent.com/draytonbb9/CP1-Final-Project/master/assets/images/screenshots/Screenshot%20(4).png)
